@@ -2,16 +2,16 @@
 
 A dedicated Red Teaming and Threat Modeling R&D laboratory focused on auditing Large Language Models (LLMs) and Agentic AI workflows against the OWASP Top 10 for LLMs.
 
-## 🎯 Project Overview
+## Project Overview
 This repository serves as a live journal of adversarial threat simulations conducted within an isolated, self-hosted AI architecture. The objective is to proactively identify, exploit, and mitigate vulnerabilities in generative AI systems before they are deployed in enterprise environments.
 
-## 🏗️ Lab Infrastructure
+## Lab Infrastructure
 To ensure zero data leakage and full telemetry control, all tests are conducted on local hardware using containerized microservices:
 * **Inference Engine:** Local Qwen 3.5 2B (via `llama-server`)
 * **API Gateway & Telemetry:** LiteLLM Proxy routing to Langfuse for full token-level observability
 * **Agentic Framework:** Hermes Agent / Open WebUI
 * **Host OS:** Pop!_OS (Linux)
 
-## 🧪 Threat Simulation Logs (OWASP Top 10)
+## Threat Simulation Logs (OWASP Top 10)
 * **[Lab 1: Direct Prompt Injection (LLM01)](SECURITY_JOURNAL.md)** - Bypassing strict systemic persona guardrails via Cognitive Paradoxes (Roleplay Inception).
 * *(More labs in progress...)*
