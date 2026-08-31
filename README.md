@@ -1,24 +1,32 @@
-# AI Security & Adversarial R&D Portfolio
+# 🛡️ AI Security & Governance Portfolio
 
-A dedicated Red Teaming and Threat Modeling R&D laboratory focused on auditing Large Language Models (LLMs) and Agentic AI workflows against the OWASP Top 10 for LLMs.
+**Security Professional | GRC & Threat Modeling | AI Vulnerability Research**
 
-## Project Overview
-This repository serves as a live journal of adversarial threat simulations conducted within an isolated, self-hosted AI architecture. The objective is to proactively identify, exploit, and mitigate vulnerabilities in generative AI systems before they are deployed in enterprise environments.
+Welcome to my AI Security research repository. I am bridging 8+ years of enterprise Information Security management (GRC, ISMS, BCMS) with hands-on technical auditing of Large Language Models (LLMs) and Agentic AI systems. 
 
-## Lab Infrastructure
-To ensure zero data leakage and full telemetry control, all tests are conducted on local hardware using containerized microservices:
-* **Inference Engine:** Local Qwen 3.5 2B (via `llama-server`)
-* **API Gateway & Telemetry:** LiteLLM Proxy routing to Langfuse for full token-level observability
-* **Agentic Framework:** Hermes Agent / Open WebUI
-* **Host OS:** Pop!_OS (Linux)
+This portfolio demonstrates a comprehensive approach to AI risk—proving not just how to exploit frontier AI models, but how to govern, monitor, and defend them using enterprise frameworks like ISO 27001 and NIST AI RMF.
 
-## Threat Simulation Logs (OWASP Top 10)
-* **[Lab 1: Direct Prompt Injection (LLM01)](SECURITY_JOURNAL.md)** - Bypassing strict systemic persona guardrails via Cognitive Paradoxes (Roleplay Inception).
-## 🔬 Hands-On AI Security Labs
+---
 
-A structured index of vulnerability audits, threat models, and local model evaluations:
+## 🔬 Hands-On LLM Audits (OWASP Top 10)
 
-| Lab | Threat Category (OWASP) | Target | Audit Write-up |
-| :--- | :--- | :--- | :--- |
-| **Lab 02** | [LLM01: Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) | Local `Qwen 2.5 (2B)` | [System Prompt Leakage & JSON Schema Bypassing](./labs/02-system-prompt-leakage/README.md) |
-| **Lab 01** | *Coming Soon* | *TBD* | *In Progress* |
+My active vulnerability research maps directly to the [OWASP Top 10 for LLM Applications (2025/2026)](https://owasp.org/www-project-top-10-for-large-language-model-applications/). All tests are conducted locally using containerized open-weight models (Qwen, Llama) with strict telemetry logging via Langfuse.
+
+| Status | Lab | OWASP Category | Target | Write-up |
+| :---: | :--- | :--- | :--- | :--- |
+| 🔄 | **Lab 01** | [LLM01: Prompt Injection] | Local `Qwen` | *Under Construction* |
+| ✅ | **Lab 02** | [LLM07: System Prompt Leakage] | Local `Qwen 2.5` | [JSON Schema Bypassing](./labs/02-system-prompt-leakage/README.md) |
+| 📅 | **Lab 03** | [LLM06: Excessive Agency] | Agent Tooling | *Planned* |
+| 📅 | **Lab 04** | [LLM02: Sensitive Info Disclosure] | Local RAG | *Planned* |
+| 📅 | **Lab 05** | [LLM04: Data & Model Poisoning] | File Processing | *Planned* |
+
+---
+
+## 📑 Governance, Risk & Compliance (GRC)
+
+Technical exploitation is only half the battle. The `docs/` section of this repository contains architectural diagrams, threat models, and policy mappings that translate AI vulnerabilities into actionable enterprise risk mitigation.
+
+* *(Documents coming soon as labs are completed)*
+
+---
+*Disclaimer: All vulnerabilities are researched locally in air-gapped sandboxes. No enterprise APIs or proprietary corporate models are targeted in these labs.*
