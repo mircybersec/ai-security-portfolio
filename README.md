@@ -14,7 +14,7 @@ My active vulnerability research maps directly to the [OWASP Top 10 for LLM Appl
 
 | Status | Lab | OWASP Category | Target | Write-up |
 | :---: | :--- | :--- | :--- | :--- |
-| 🔄 | **Lab 01** | [LLM01: Prompt Injection] | Local `Qwen` | *Under Construction* |
+| ✅ | **Lab 01** | [LLM01: Prompt Injection] | Local `Qwen` | [Persona Hijacking](./labs/01-prompt-injection-fundamentals/README.md) |
 | ✅ | **Lab 02** | [LLM07: System Prompt Leakage] | Local `Qwen 2.5` | [JSON Schema Bypassing](./labs/02-system-prompt-leakage/README.md) |
 | 📅 | **Lab 03** | [LLM06: Excessive Agency] | Agent Tooling | *Planned* |
 | 📅 | **Lab 04** | [LLM02: Sensitive Info Disclosure] | Local RAG | *Planned* |
