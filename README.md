@@ -14,4 +14,11 @@ To ensure zero data leakage and full telemetry control, all tests are conducted 
 
 ## Threat Simulation Logs (OWASP Top 10)
 * **[Lab 1: Direct Prompt Injection (LLM01)](SECURITY_JOURNAL.md)** - Bypassing strict systemic persona guardrails via Cognitive Paradoxes (Roleplay Inception).
-* *(More labs in progress...)*
+## 🔬 Hands-On AI Security Labs
+
+A structured index of vulnerability audits, threat models, and local model evaluations:
+
+| Lab | Threat Category (OWASP) | Target | Audit Write-up |
+| :--- | :--- | :--- | :--- |
+| **Lab 02** | [LLM01: Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) | Local `Qwen 2.5 (2B)` | [System Prompt Leakage & JSON Schema Bypassing](./labs/02-system-prompt-leakage/README.md) |
+| **Lab 01** | *Coming Soon* | *TBD* | *In Progress* |
