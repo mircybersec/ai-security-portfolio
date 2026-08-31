@@ -1,4 +1,4 @@
-# 🛡️ AI Security & Governance Portfolio
+# AI Security & Governance Portfolio
 
 **Security Professional | GRC & Threat Modeling | AI Vulnerability Research**
 
